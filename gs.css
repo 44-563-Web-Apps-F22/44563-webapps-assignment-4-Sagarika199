@@ -4,6 +4,10 @@ h1 {
   font-size: 40px;
   text-shadow: 3px 0px 3px yellow;
 }
+h4.head {
+    color: blue;
+    text-shadow: 1px 0px 1px pink;
+  }
 
 h4.fred {
     color: red;
