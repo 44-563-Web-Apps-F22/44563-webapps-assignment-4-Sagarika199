@@ -48,7 +48,7 @@ p.act
     color: #5F9EA0
 }
 p.song{
-  color: black;
+  color:violet;
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
   width: 30%;
@@ -65,6 +65,13 @@ p1.directions
         font-size: 15px;
 
     }
+p1.directions:hover
+    {
+        background-color:aqua;
+        font-size: 15px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
 p2.directions:hover
     {
         background-color: yellow;
@@ -78,7 +85,7 @@ table.styled-table {
         font-size: 0.9em;
         font-family: sans-serif;
         min-width: 400px;
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);
         text-align: middle;
     }
     table.styled-table thead tr {
@@ -99,7 +106,32 @@ table.styled-table tbody tr {
         text-align: left;
     }
 
+h4.fred:hover{
+        text-shadow: 1px 1px 2px yellow;
+        background-color: lightcyan; 
+   }
+   h4.king:hover{
+    text-shadow: 2px 1px 2px yellow;
+    background-color: lightcyan;
+}
+h4.sam:hover{
+    text-shadow: 1px 2px 2px yellow;
+    background-color: lightcyan; 
+}
+h4.all:hover{
+    text-shadow: 1px 2px 2px yellow;
+    background-color: lightcyan; 
+}
+h4.ruth:hover{
+    text-shadow: 1px 2px 3px black;
+    background-color: lightcyan; 
+}
+ 
 
+   
+
+
+    
 
     
       
