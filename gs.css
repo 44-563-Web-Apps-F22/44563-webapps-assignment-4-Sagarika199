@@ -1,8 +1,8 @@
-
 h1 {
   color: black;
   font-family: verdana;
   font-size: 40px;
+  text-shadow: 3px 0px 3px yellow;
 }
 
 h4.fred {
@@ -48,7 +48,7 @@ p.act
     color: #5F9EA0
 }
 p.song{
-  color:violet;
+  color:darkmagenta;
   font-family: 'Courier New', Courier, monospace;
   font-size: 15px;
   width: 30%;
@@ -108,25 +108,65 @@ table.styled-table tbody tr {
 
 h4.fred:hover{
         text-shadow: 1px 1px 2px yellow;
-        background-color: lightcyan; 
+        background-color: lightcyan;
+        box-shadow: 1px 1px 3px black; 
    }
    h4.king:hover{
     text-shadow: 2px 1px 2px yellow;
     background-color: lightcyan;
+    box-shadow: 1px 1px 3px black;
 }
 h4.sam:hover{
     text-shadow: 1px 2px 2px yellow;
-    background-color: lightcyan; 
+    background-color: lightcyan;
+    box-shadow: 1px 1px 3px black; 
 }
 h4.all:hover{
     text-shadow: 1px 2px 2px yellow;
     background-color: lightcyan; 
+    box-shadow: 1px 1px 3px black;
 }
 h4.ruth:hover{
     text-shadow: 1px 2px 3px black;
-    background-color: lightcyan; 
+    background-color: lightcyan;
+    box-shadow: 1px 1px 3px black; 
 }
  
+table, th, td {
+    border: 1px solid black;
+}
+th, td {
+    padding: 10px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 1px;
+    overflow: hidden;
+    background-color: purple;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: lightskyblue;
+  }
+  
+  
+  
+  
+    
+
 
    
 
