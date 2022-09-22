@@ -83,33 +83,6 @@ p2.directions:hover
         font-size: 15px;
 }
    
-table.styled-table {
-        border-collapse: collapse;
-        margin: 40px;
-        font-size: 0.9em;
-        font-family: sans-serif;
-        min-width: 400px;
-        box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.15);
-        text-align: middle;
-    }
-    table.styled-table thead tr {
-        background-color: yellow;
-        color: black;
-        text-align: left;
-    }
-table.styled-table th,
-table.styled-table td {
-    padding: 10px 10px;
-}
-table.styled-table tbody tr {
-    border-bottom: 2px solid black;
-    }
-    table.styled-table tbody tr {
-        background-color: lightgray;
-        color: black;
-        text-align: left;
-    }
-
 h4.fred:hover{
         text-shadow: 1px 1px 2px yellow;
         background-color: lightcyan;
@@ -140,7 +113,7 @@ table, th, td {
     border: 1px solid black;
 }
 th, td {
-    padding: 10px;
+    padding: 13px;
 }
 ul {
     list-style-type: none;
@@ -164,6 +137,28 @@ ul {
   
   li a:hover {
     background-color: lightskyblue;
+  }
+
+  table {
+    border: 1px solid yellow;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 20px 5px gray;
+  }
+  th {
+    background-color: yellow;
+    color : black;
+    }
+  tr:nth-child(odd){
+    background-color: gray;
+    color: white;
+  }
+  th,td {
+    border: 1px solid black;
+    text-align: center;
+    padding: 15px;
+    margin: 70px;
+    height: 20px;
+    vertical-align: bottom;
   }
   
   
